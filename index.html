@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style/style.css"
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>DESAFIO ALURA+ONE</title>
+</head>
+
+<header>
+    <img src="./images/Alura.png" alt="Letra 'A' amarela">
+
+</header>
+<body>
+    <main class="principal">
+        <div class="principal_descricao">
+            <img src="./images/Icon.png" class="img_icon" alt="imagem amarela com letra 'i' no meio">
+            <p class="principal_descricao_texto">Apenas letras minúsculas e sem acento</p>
+        </div>
+        
+        <div class="principal__cripto">
+            <textarea id="principal__cripto" cols="30" rows="4" class="input_principal__cripto" placeholder="Digite seu texto" type="textarea"></textarea>
+        </div>
+
+        <div class="principal__criptografado">
+            <img id="codigo_imagem" class="codigo_imagem" src="./images/binario.png" alt="imagem de códigos uns e zeros">
+            <p id="nenhuma_mensagem" class="nenhuma_mensagem">Nenhuma mensagem criptografada</p>
+            <p id="texto_deseja" class="texto_deseja">Digite um texto que deseja criptografar ou descriptografar</p>
+            <button onclick="copiar()" id="botao_copiar" class="botao_copiar">Copiar</button>
+        </div>
+
+        <div class="principal__botoes">
+            <button onclick="descriptografar()" class="principal__botoes__descripto">Descriptografar</button>
+            <button onclick="criptografar()" class="principal__botoes__cripto">Criptografar</button>
+        </div>
+
+    </main>
+    <script src="./javaScript/app.js" defer></script>
+</body>
+</html>
