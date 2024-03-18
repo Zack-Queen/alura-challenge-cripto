@@ -1,6 +1,6 @@
 ## Autora
 
-- [@Juuh_zack](https://github.com/zack-queen)
+- [@Zack-Queen](https://github.com/zack-queen)
 
 ## O que o programa faz?
 
